@@ -4,7 +4,7 @@
 
 void TitleScreen(){
     std::cout<<"-------------------"<<std::endl;
-    std::cout<<"Bienvenue"<<std::endl;
+    std::cout<<"Welcome"<<std::endl;
     std::cout<<"-------------------"<<std::endl;
 }
 

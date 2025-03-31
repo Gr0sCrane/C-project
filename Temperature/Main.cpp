@@ -1,8 +1,10 @@
 #include <iostream>
-#include "AppFunction.cpp"
+#include "AppFunction.h"
 
 int main(){
     bool Running = true;
+
+    TitleScreen();
 
     while (Running){
         AskTemp();
