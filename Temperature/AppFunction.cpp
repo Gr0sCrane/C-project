@@ -26,22 +26,22 @@ void ConvertTemp(float temp,std::string &FromUnit,std::string &ToUnit){
         std::cout<<"la température est deja en cette unité"<<std::endl;
     }
     else if (FromUnit == "Celsius" && ToUnit == "Fahrenheit"){
-        std::cout<<CelciusToFahrenheit(temp)<<std::endl;
+        std::cout<<"il fait : "<<CelciusToFahrenheit(temp)<<" °F"<<std::endl;
     }
     else if (FromUnit == "Fahrenheit" && ToUnit == "Celsius"){
-        std::cout<<FahrenheitToCelcius(temp)<<std::endl;
+        std::cout<<"il fait : "<<FahrenheitToCelcius(temp)<<" °C"<<std::endl;
     }
     else if (FromUnit == "Celsius" && ToUnit == "Kelvin"){
-       std::cout<<CelciusToKelvin(temp)<<std::endl;
+       std::cout<<"il fait : "<<CelciusToKelvin(temp)<<" °K"<<std::endl;
     }
     else if (FromUnit == "Kelvin" && ToUnit == "Celsius"){
-       std::cout<<KelvinToCelcius(temp)<<std::endl;
+       std::cout<<"il fait : "<<KelvinToCelcius(temp)<<" °C"<<std::endl;
     }
     else if (FromUnit == "Fahrenheit" && ToUnit == "Kelvin"){
-       std::cout<<FahrenheitToKelvin(temp)<<std::endl;
+       std::cout<<"il fait : "<<FahrenheitToKelvin(temp)<<" °K"<<std::endl;
     }
     else if (FromUnit == "Kelvin" && ToUnit == "Fahrenheit"){
-        std::cout<<KelvinToFahrenheit(temp)<<std::endl;
+        std::cout<<"il fait : "<<KelvinToFahrenheit(temp)<<" °F"<<std::endl;
     } else {
         std::cout<<"Erreur"<<std::endl;
     }
