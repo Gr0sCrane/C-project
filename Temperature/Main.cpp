@@ -1,6 +1,5 @@
 #include <iostream>
 #include "AppFunction.hpp"
-#include "CalculTemp.hpp"
 
 int main()
 {
