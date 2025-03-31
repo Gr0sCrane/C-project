@@ -1,18 +1,18 @@
 #ifndef CALCULTEMP_H
 #define CALCULTEMP_H
 
-float CelciusToKelvin();
+float CelciusToKelvin(float);
 
-float KelvinToCelcius();
+float KelvinToCelcius(float);
 
-float CelciusToFahrenheit();
+float CelciusToFahrenheit(float);
 
-float FahrenheitToCelcius();
+float FahrenheitToCelcius(float);
 
-float KelvinToFahrenheit();
+float KelvinToFahrenheit(float);
 
-float FahrenheitToKelvin();
+float FahrenheitToKelvin(float);
 
-void isHotOrCold();
+void isHotOrCold(float,std::string);
 
 #endif

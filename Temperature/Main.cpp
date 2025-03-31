@@ -1,5 +1,6 @@
 #include <iostream>
 #include "AppFunction.h"
+#include "CalculTemp.h"
 
 int main(){
     bool Running = true;
@@ -12,5 +13,3 @@ int main(){
     }
     return 0;
 }
-
-//TODO faire une fonction bool isHot() et isCold() qui verif la temp convertie

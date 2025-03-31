@@ -1,7 +1,13 @@
 #include <iostream>
-#include "CalculTemp.h"
 
+// Constantes
 const float K = 273.15;
+const float HOT_SPOT_C = 30;
+const float HOT_SPOT_F = 86;
+const float HOT_SPOT_K = 303.15;
+const float COLD_SPOT_C = 0;
+const float COLD_SPOT_F = 32;
+const float COLD_SPOT_K = 273.15;
 
 float CelciusToKelvin(float tempC){
     return tempC + K;
@@ -28,20 +34,21 @@ float FahrenheitToKelvin(float tempF){
 }
 
 void isHotOrCold(float temp, std::string ToUnit){
-    if (ToUnit == "Celsius" && temp > 30){
+    if (ToUnit == "Celsius" && temp > HOT_SPOT_C){
         std::cout<<"Il fait chaud !"<<std::endl;
-    } else if (ToUnit == "Fahrenheit" && temp > 86){
+    } else if (ToUnit == "Fahrenheit" && temp > HOT_SPOT_F){
         std::cout<<"Il fait chaud !"<<std::endl;
 
-    } else if (ToUnit == "Kelvin" && temp > 303.15){
+    } else if (ToUnit == "Kelvin" && temp > HOT_SPOT_K){
         std::cout<<"Il fait chaud !"<<std::endl;
         
-    } else if (ToUnit == "Celsius" && temp < 0) {
+    } else if (ToUnit == "Celsius" && temp < COLD_SPOT_C) {
         std::cout<<"Il fait froid !"<<std::endl;
         
-    } else if (ToUnit == "Fahrenheit" && temp < 32){
+    } else if (ToUnit == "Fahrenheit" && temp < COLD_SPOT_F){
         std::cout<<"Il fait froid !"<<std::endl;
      
-    } else if (ToUnit == "Kelvin" && temp < 273.15){
+    } else if (ToUnit == "Kelvin" && temp < COLD_SPOT_K){
         std::cout<<"Il fait froid !"<<std::endl;
+    }
 }

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "CalculTemp.cpp"
+#include "CalculTemp.h"
 #include "Appfunction.h"
 
 
