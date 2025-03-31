@@ -1,15 +1,9 @@
 #include <iostream>
-#include "AppFunction.h"
-#include "CalculTemp.h"
+#include "AppFunction.hpp"
+#include "CalculTemp.hpp"
 
-int main(){
-    bool Running = true;
-
+int main()
+{
     TitleScreen();
-
-    while (Running){
-        AskTemp();
-        Running = false;
-    }
     return 0;
 }

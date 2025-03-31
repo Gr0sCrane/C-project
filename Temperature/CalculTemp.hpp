@@ -1,3 +1,4 @@
+#include <iostream>
 #ifndef CALCULTEMP_H
 #define CALCULTEMP_H
 

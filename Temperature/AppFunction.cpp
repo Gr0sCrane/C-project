@@ -1,6 +1,6 @@
 #include <iostream>
-#include "CalculTemp.h"
-#include "Appfunction.h"
+#include "CalculTemp.hpp"
+#include "Appfunction.hpp"
 
 
 void TitleScreen(){
