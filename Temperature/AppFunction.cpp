@@ -65,4 +65,5 @@ void AskTemp(){
     ToUnit = WhatUnit(ToUnit);
     
     ConvertTemp(temp,FromUnit,ToUnit);
+    isHotOrCold(temp,ToUnit);
 }
