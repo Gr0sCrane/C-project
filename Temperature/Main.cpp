@@ -10,3 +10,5 @@ int main(){
     }
     return 0;
 }
+
+//TODO faire une fonction bool isHot() et isCold() qui verif la temp convertie
