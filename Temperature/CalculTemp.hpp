@@ -33,7 +33,7 @@ float FahrenheitToKelvin(float tempF){
     return (tempF - 32 ) * 5/9 + K;
 }
 
-void isHotOrCold(float temp, std::string ToUnit){
+void isHotOrCold(float &temp, std::string &ToUnit){
     if (ToUnit == "Celsius" && temp > HOT_SPOT_C){
         std::cout<<"Il fait chaud !"<<std::endl;
     } else if (ToUnit == "Fahrenheit" && temp > HOT_SPOT_F){

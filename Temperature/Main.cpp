@@ -3,6 +3,12 @@
 
 int main()
 {
+    // Title screen
     TitleScreen();
+
+    // App loop
+    while (Running){
+        AskTemp();
+    }
     return 0;
 }
