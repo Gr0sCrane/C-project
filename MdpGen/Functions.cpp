@@ -1,7 +1,6 @@
 #include <iostream>
 #include <random>
 
-
 //===============Constants and global variables=======================================
 
 bool Running = true;
@@ -22,7 +21,7 @@ const int LetterMinlen = sizeof(LetterList_min) / sizeof(LetterList_min[0]);
 
 std::string GenerateMdp(int taille,short Maj,short Min,short Chfr,short ChrSp){
 
-    std::string Password = " ";
+    std::string Password = "";
 
     if (taille == 1){
         int max_size = taille;
