@@ -2,11 +2,11 @@
 
 // Constantes
 const float K = 273.15;
-const float HOT_SPOT_C = 30;
-const float HOT_SPOT_F = 86;
+const short HOT_SPOT_C = 30;
+const short HOT_SPOT_F = 86;
 const float HOT_SPOT_K = 303.15;
-const float COLD_SPOT_C = 0;
-const float COLD_SPOT_F = 32;
+const short COLD_SPOT_C = 0;
+const short COLD_SPOT_F = 32;
 const float COLD_SPOT_K = 273.15;
 
 float CelciusToKelvin(float tempC){
