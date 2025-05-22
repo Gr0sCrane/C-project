@@ -39,6 +39,10 @@ std::string GenerateMdp(int taille,short Maj,short Min,short Chfr,short ChrSp){
         char elemrand = LetterList_min[idxrandm];
         Password += elemrand;
         }
+        if (Chfr == 1){
+        char chiffre = '0' + (rand() % 10);
+        Password += chiffre;
+        }
         if (ChrSp == 1){
         int idxrandC = rand() % ListeCharlen;
         char elemrand = CharacterList[idxrandC];
